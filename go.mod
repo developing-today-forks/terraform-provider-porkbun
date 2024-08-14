@@ -1,6 +1,8 @@
 module github.com/cullenmcdermott/terraform-provider-porkbun
 
-go 1.19
+go 1.21
+
+toolchain go1.22.5
 
 require (
 	github.com/hashicorp/go-retryablehttp v0.7.4
@@ -12,9 +14,7 @@ require (
 	github.com/nrdcg/porkbun v0.3.0
 )
 
-replace(
-  github.com/nrdcg/porkbun => github.com/developing-today-forks/porkbun improvements
-)
+replace github.com/nrdcg/porkbun => github.com/developing-today-forks/porkbun v0.0.0-20240617120606-8ad36631e18a
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
