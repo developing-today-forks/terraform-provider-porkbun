@@ -12,6 +12,10 @@ require (
 	github.com/nrdcg/porkbun v0.3.0
 )
 
+replace(
+  github.com/nrdcg/porkbun => github.com/developing-today-forks/porkbun improvements
+)
+
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.1.1 // indirect
