@@ -3,10 +3,12 @@ package provider
 import (
 	"context"
 	"fmt"
+	"log/slog"
 	"net/url"
 	"os"
 	"strconv"
 
+	tflogsloghandler "github.com/developing-today-forks/terraform-plugin-log-tflog-slog-handler"
 	"github.com/hashicorp/go-retryablehttp"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/diag"
@@ -16,6 +18,10 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/nrdcg/porkbun"
 )
+
+func init() {
+	slog.SetDefault(slog.New(tflogsloghandler.NewSlogHandler()))
+}
 
 // Ensure provider defined types fully satisfy framework interfaces
 var _ provider.Provider = &porkbunProvider{}

@@ -5,6 +5,7 @@ go 1.21
 toolchain go1.22.5
 
 require (
+	github.com/developing-today-forks/terraform-plugin-log-tflog-slog-handler v0.0.0-20240817081049-7e9dd471aaac
 	github.com/hashicorp/go-retryablehttp v0.7.4
 	github.com/hashicorp/terraform-plugin-docs v0.16.0
 	github.com/hashicorp/terraform-plugin-framework v1.4.2
@@ -14,7 +15,7 @@ require (
 	github.com/nrdcg/porkbun v0.3.0
 )
 
-replace github.com/nrdcg/porkbun => github.com/developing-today-forks/porkbun v0.0.0-20240617120606-8ad36631e18a
+replace github.com/nrdcg/porkbun => github.com/developing-today-forks/porkbun v0.0.0-20240817083506-ee3b4f692bfa
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
@@ -26,7 +27,7 @@ require (
 	github.com/armon/go-radix v1.0.0 // indirect
 	github.com/bgentry/speakeasy v0.1.0 // indirect
 	github.com/cloudflare/circl v1.3.3 // indirect
-	github.com/fatih/color v1.15.0 // indirect
+	github.com/fatih/color v1.17.0 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/uuid v1.3.1 // indirect
@@ -34,7 +35,7 @@ require (
 	github.com/hashicorp/go-checkpoint v0.5.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-cty v1.4.1-0.20200414143053-d3edf31b6320 // indirect
-	github.com/hashicorp/go-hclog v1.5.0 // indirect
+	github.com/hashicorp/go-hclog v1.6.3 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/go-plugin v1.5.2 // indirect
 	github.com/hashicorp/go-uuid v1.0.3 // indirect
@@ -71,7 +72,7 @@ require (
 	golang.org/x/exp v0.0.0-20230626212559-97b1e661b5df // indirect
 	golang.org/x/mod v0.12.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
-	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/sys v0.24.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20231016165738-49dd2c1f3d0b // indirect
