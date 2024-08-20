@@ -15,7 +15,7 @@ require (
 	github.com/nrdcg/porkbun v0.3.0
 )
 
-replace github.com/nrdcg/porkbun => github.com/developing-today-forks/porkbun v0.0.0-20240817083506-ee3b4f692bfa
+replace github.com/nrdcg/porkbun => github.com/developing-today-forks/porkbun v0.0.0-20240820224330-790ac9090969
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect

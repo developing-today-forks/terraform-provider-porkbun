@@ -19,10 +19,6 @@ import (
 	"github.com/nrdcg/porkbun"
 )
 
-func init() {
-	slog.SetDefault(slog.New(tflogsloghandler.NewSlogHandler()))
-}
-
 // Ensure provider defined types fully satisfy framework interfaces
 var _ provider.Provider = &porkbunProvider{}
 
@@ -135,6 +131,7 @@ func (p *porkbunProvider) Configure(ctx context.Context, req provider.ConfigureR
 	retryClient := retryablehttp.NewClient()
 	retryClient.RetryMax = p.MaxRetries
 	c.HTTPClient = retryClient.StandardClient()
+	c.Logger = slog.New(tflogsloghandler.NewSlogHandler())
 
 	p.configured = true
 	resp.DataSourceData = c

@@ -32,8 +32,8 @@ github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ3
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/developing-today-forks/porkbun v0.0.0-20240817083506-ee3b4f692bfa h1:nzLXUpPIX1QGKBupoAp72UZSBaO8ovawPofEBKarNa4=
-github.com/developing-today-forks/porkbun v0.0.0-20240817083506-ee3b4f692bfa/go.mod h1:/QMskrHEIM0IhC/wY7iTCUgINsxdT2WcOphktJ9+Q54=
+github.com/developing-today-forks/porkbun v0.0.0-20240820224330-790ac9090969 h1:mxjRsffreKdwYiNNDoYInCyMfgWQG+/32uE8HeFI/D4=
+github.com/developing-today-forks/porkbun v0.0.0-20240820224330-790ac9090969/go.mod h1:/QMskrHEIM0IhC/wY7iTCUgINsxdT2WcOphktJ9+Q54=
 github.com/developing-today-forks/terraform-plugin-log-tflog-slog-handler v0.0.0-20240817081049-7e9dd471aaac h1:2+7iV2/PM5rRykBl8L5fEF9RTAnGXTEx2XS1gKD5gQw=
 github.com/developing-today-forks/terraform-plugin-log-tflog-slog-handler v0.0.0-20240817081049-7e9dd471aaac/go.mod h1:7AwSGu4WWeHv6XC9hVfn6+K2cBeR/aXAfzFiPMXAg64=
 github.com/emirpasic/gods v1.18.1 h1:FXtiHYKDGKCW2KzwZKx0iC0PQmdlorYgdFG9jPXJ1Bc=
